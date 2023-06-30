@@ -1,0 +1,33 @@
+<table>
+  <tr>
+    <th>タイトル</th>
+    <td><%= @schedule.title %></td>
+  </tr>
+  <tr>
+    <th>開始日</th>
+    <td><%= @schedule.start_at %></td>
+  </tr>
+  <tr>
+    <th>終了日</th>
+    <td><%= @schedule.end_at %></td>
+  </tr>
+  <tr>
+    <th>終日</th>
+     <td><% if @schedule.is_all_day == true %>
+            ○
+         <% else @schedule.is_all_day == false %>
+
+         <% end %>
+  </tr>
+  <tr>
+    <th>スケジュールメモ</th>
+    <td><%= @schedule.introduction %></td>
+  </tr>
+</table>
+
+<div>
+  <ul>
+    <li><%= link_to "一覧に戻る", :schedules %></li>
+    <li><%= link_to "編集", [:edit, @schedule] %></li>
+  </ul>
+</div>

@@ -1,3 +1,49 @@
-// Place all the styles related to the schedules controller here.
+header{
+    color: pink;
+      font-size: 30px;
+      font-weight: 700;
+      line-height: 18px;
+      margin: 0 auto;
+      text-align: center !important;
+  }
+  
+  h2{
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 26px;
+  }
+  
+  button{
+    color:pink;
+  }
+  
+  .PageTitle{
+      align-items: baseline;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 18px;
+      color:pink;
+  }
+  
+  table th { background-color: #fbc25b;
+     padding: 10px 20px;
+   }
+   
+   table td {
+     background-color: #f9ecd5;
+     padding: 10px 20px;
+   }
+   
+   .success .failure {
+     background-color: #ccf;
+     padding: 5px;
+   }
+   
+    .posts-content {
+     width: 350px;
+     height: 200px;
+   }
+
+   // Place all the styles related to the schedules controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
